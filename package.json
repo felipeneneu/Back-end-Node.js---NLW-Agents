@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node --env-file .env --experimental-strip-types --watch src/server.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
     "start": "node --env-file .env --experimental-strip-types --no-warning src/server.ts",
     "db:seed": "node --env-file .env --experimental-strip-types src/db/seed.ts"
   },
