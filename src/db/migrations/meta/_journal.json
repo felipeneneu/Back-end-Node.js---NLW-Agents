@@ -22,6 +22,13 @@
       "when": 1752873916285,
       "tag": "0002_awesome_dorian_gray",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752954129287,
+      "tag": "0003_lovely_ironclad",
+      "breakpoints": true
     }
   ]
 }
